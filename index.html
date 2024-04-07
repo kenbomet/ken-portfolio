@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Personal portfolio website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a12ac06c5d.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+    
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#Services">Services</a></li>
+            <li><a href="#portfolio">portfolio</a></li>
+            <li><a href="#contact">contact</a></li>
+            <i class="fas fa-times" on click="closemenu()"></i>
+          </ul>
+          <i class="fas fa-bars"on click="open menu()"></i>
+        </nav>
+        <div class="header-text">
+          <p>Web Developer</p>
+          <h1> Hi, I'M <span>Ken</span> <br> from Kenya</h1>
+        </div>
+      </div>
+    </div>
+    <!---------about------------->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="images/black bg.png">
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>Hello there! I'm Ken, a passionate and creative  front end web Developer  with a keen eye for detail and a commitment to delivering visually appealing and functional websites. With a background in [mention any relevant education or experience], I bring a unique blend of technical expertise and artistic flair to every project I undertake.
+              I thrive on turning ideas into reality and love the challenge of creating intuitive and user-friendly websites. My design philosophy revolves around combining aesthetics with functionality, ensuring that each website not only looks stunning but also provides an exceptional user experience.             
+              Having a solid understanding of the latest design trends, coding languages, and responsive design principles, I stay at the forefront of the rapidly evolving web industry. Whether it's a sleek portfolio, a dynamic e-commerce platform, or a corporate website, I tailor my approach to meet the specific needs and goals of each client.
+              I am proficient in [mention relevant tools and technologies, such as HTML, CSS, JavaScript, and design software]. My workflow includes collaboration with clients to understand their vision, wireframing and prototyping to bring ideas to life, and meticulous testing to ensure optimal performance across devices and browsers.</p>
+         <div class="tab-titles">
+          <p class="tab-links active-link" onclick="opentab('skills')"> skills </p>
+          <p class="tab-links" onclick="opentab('experience')"> Experience </p>
+          <p class="tab-links" onclick="opentab('education')"> Education </p>
+         </div>
+         <div class="tab-contents active-tab" id="skills">
+          <ul>
+            <li><span>Ul/UX</span><br> Designing Web/App interfaces</li>
+              <li><span>Web Developer<span><br>Web app Developer</li>
+                <li><span>Graphic Desighner <span><br>Graphic Desighner</li>
+          </ul>
+         </div>
+         <div class="tab-contents" id="experience">
+          <ul>
+            <li><span>2021-curent</span><br>web developer free lancer .</li>
+          </ul>
+         </div>
+         <div class="tab-contents" id="education">
+          <ul>
+            <li><span>2021-2024</span><br>Diploma in ICT@ Eldoret National Polytechnic .</li>
+            <li><span>2016-2019</span><br>Kenya Certificate of Secondary Education.</li>
+           
+          </ul>
+         </div>
+            </div>
+        </div>
+      </div>
+    </div>
+    <!---------services--------------------->
+    <div id="Services">
+      <div class="container"
+      <h1 class="sub-title"> My Services</h1>
+      <div class="services-list">
+        <div>
+          <i class="fas fa-code"></i>
+          <h2>Web Design</h2>
+<p>I stay at the forefront of the rapidly evolving web industry. Whether it's a sleek portfolio, a dynamic e-commerce platform, or a corporate website.</p>
+    <a href="#" >Learn more</a>  
+       </div>
+       <div>
+        <i class="fa-solid fa-crop"></i>
+        <h2>UI/UX Design</h2>
+        <p>I stay at the forefront of the rapidly evolving web industry. Whether it's a sleek portfolio, a dynamic e-commerce platform, or a corporate website.</p>
+            <a href="#" >Learn more</a>  
+               </div>
+               <div>
+                <i class="fa-solid fa-pen"></i>
+                <h2>Graphic Design</h2>
+                <p>Graphic design is the silent ambassador of your brand, speaking volumes without uttering a word.</p>
+                    <a href="#" >Learn more</a>  
+                       </div>
+      </div>
+    </div>
+  </div>
+ <! -----------------portfolio---------------->
+ <div id="portfolio">
+ <div class="container">
+  <h1 class="sub-title"> My Work </h1>
+  <div class="work-List">
+    <div class="work">
+      <img src="images/images (3).jpeg"> 
+      <div class="layer"
+      <h3> Socal Midea Website</h3>
+      <P>The website connects you to talented people around the world.</P>
+      <a href="#"> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+    </div>
+    </div>
+    <div class="work">
+      <img src="images/majesty.JPG">
+      <div class="layer"
+      <h3>Hotel website</h3>
+      <P>The website enables you to book rooms and it show case different services offerd by the Hotel.</P>
+      <a href="#"> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+    </div>
+    </div>
+    <div class="work">
+      <img src="images/TOURISIM-01.png">
+      <div class="layer"
+      <h3>Graphic Designing</h3>
+      <P>This are some of my Graphic works.</P>
+      <a href="#"> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+    </div>
+    </div>
+  </div> 
+  <a href="#" class="btn">See more</a>
+</div>
+ </div>
+<!-----------------------------contact----------------------->
+<div id="contact">
+         <div class="container">
+          <div class="row">
+            <div class="contact-left">
+              <h1 class="sub-title">Contact Me</h1>
+              <p><i class="fa-sharp fa-solid fa-paper-plane"></i>contact@kenbomet.com</p>
+              <p><i class="fa-sharp fa-solid fa-square-phone"></i>0726563539</p>
+              <div class="social-icons">
+                <a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                <a href=" https://www.instagram.com/seron_ey/ "><i class="fa-brands fa-twitter-square"></i></a>
+                <a href="https://www.instagram.com/seron_ey/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/ken-kipchumba-665860269/"><i class="fa-brands fa-linkedin"></i></a>
+              </div>
+              <a href="images/KEN KIPCHUMBA BOMET CV 126.pdf" Download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+              <form name="submit-to-google-sheet">
+                <input type="text" name ="Name" placeholder="Your Name" required>
+                <input type="email" name="Email" placeholder="Your Email" required>
+                <textarea name="Massage" rows="6"placeholder="Your Massage"></textarea>
+                <button type="submit" class="btn btn2">submit</button>
+              </form>
+              <span id="msg"></span>
+            </div>
+          </div>
+        </div>
+        <div class="copyright">
+          <p>Copyright@ken kipchumba Bomet <i class="fas fa-heart"></i>Designed by kentech</p>
+        </div>
+         </div>
+    <script>
+
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+
+      function opentab(tabname){
+        for(tablink of tablinks){
+          tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+          tabcontent.classList.remove("active-tab");
+      }
+      event.currentTarget.classList.add("active-link");
+      document.getElementById(tabname).classList.add("active-tab");
+    }
+
+    </script>
+    <script>
+      var sidemenu=document.getElementById("sidemenu");
+
+      function openmenu(){
+        sidemenu.style.right="0";
+      }
+      function closemenu(){
+        sidemenu.style.right="-200";
+      }
+    </script>
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbxh4fxzTHIGHvh6TJY6wu_wAF0Bdbe9T3gMJb5ixWELc0sJh3oYXitzUZJqMDdnH0OA/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById("msg")
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response =>{
+        msg.innerHTML="Massage sent successfully"
+        setTimeout(function(){
+          msg.innerHTML=""
+        },5000)
+          form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+    })
+</script>
+  </body>
+</html>
